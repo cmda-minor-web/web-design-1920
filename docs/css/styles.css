@@ -33,7 +33,7 @@ h2 {
 }
 ul {
   display: flex;
-  /flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
@@ -50,6 +50,20 @@ ul img {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+#student-work ul li {
+  max-width: 12em;
+}
+#lecturers ul li {
+  width: 40%;
+}
+
+#lecturers img {
+  width: 12em;
+}
+
+
+
+
 img {
   max-width: 100%;
 }
